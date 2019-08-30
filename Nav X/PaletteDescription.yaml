@@ -1,0 +1,10 @@
+!Component
+  name: Nav X
+  type: PIDOutput
+  help: A Nav X sensor.
+  properties:
+    - !ChoicesProperty
+      name: Port
+      validators: [Port]
+      choices: ["Port.kUSB","SPI.Port.kMXP"]
+      default: "Port.kUSB"

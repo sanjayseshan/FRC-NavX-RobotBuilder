@@ -1,0 +1,6 @@
+Spark MAX:
+  Defaults: "Component,None"
+  ClassName: "CANSparkMax"
+  Construction: "#variable($Name) = new ${ClassName}($CAN_ID, $Motor_Type);"
+  Import: "import com.revrobotics.CANSparkMax;\n
+           import com.revrobotics.CANSparkMaxLowLevel.MotorType;\n"
