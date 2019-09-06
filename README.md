@@ -1,4 +1,4 @@
-# Spark MAX extension for Robot Builder
+# Spark MAX extension v1.0.1 for Robot Builder
 
 This will add the NAV X controller to the Robot Builder menu. This works for Java only.
 

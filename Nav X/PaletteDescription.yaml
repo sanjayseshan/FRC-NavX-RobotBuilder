@@ -6,5 +6,5 @@
     - !ChoicesProperty
       name: Port
       validators: [Port]
-      choices: ["Port.kUSB","SPI.Port.kMXP"]
+      choices: ["Port.kUSB","SPI.Port.kMXP","I2C.Port.kMXP"]
       default: "Port.kUSB"

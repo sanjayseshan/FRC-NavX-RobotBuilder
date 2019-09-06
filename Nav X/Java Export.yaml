@@ -4,4 +4,5 @@ Nav X:
   Construction: "#variable($Name) = new ${ClassName}($Port);"
   Import: "import com.kauailabs.navx.frc.AHRS;\n
            import edu.wpi.first.wpilibj.SPI;\n
+           import edu.wpi.first.wpilibj.I2C;\n
 	   import edu.wpi.first.wpilibj.SerialPort.Port;\n"
